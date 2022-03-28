@@ -13,9 +13,10 @@ function App() {
       <LeftWidget />
       <Box sx={{ml: '256px', mt: "70px"}}>
         <Routes>
-          <Route exact path="/" element={<Main/>} />
+          
           <Route path="/about" element={<About/>} />
           <Route path="/forms" element={<Forms/>} />
+            <Route path="/" element={<Main/>} />
         </Routes>
       </Box>
     </div>
